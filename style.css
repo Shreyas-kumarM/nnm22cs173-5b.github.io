@@ -1,0 +1,47 @@
+body {
+    background-image: url('weather-image.jpg'); /* Replace with the URL of your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#app {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    color: #ffc107; /* Yellow color for the header */
+}
+
+#cityInput {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+#fetchWeather {
+    background-color: #4CAF50; /* Green color for the button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#weatherResult {
+    margin-top: 20px;
+}
